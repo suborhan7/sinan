@@ -1,0 +1,15 @@
+# Godot caches and local build output
+.godot/
+.import/
+prototype/build/
+*.translation
+export_credentials.cfg
+
+# Signing keys: never commit
+*.keystore
+*.jks
+*.p12
+
+# OS clutter
+.DS_Store
+Thumbs.db
